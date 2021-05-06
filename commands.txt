@@ -126,6 +126,6 @@ git add history.txt
 git add commands.txt
 git commit -m "history"
 git status 
-git push -u master
+git push -u origin master
 
 
