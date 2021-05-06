@@ -1,0 +1,407 @@
+cosmo3$ history
+    1  /cita/local/bin/passwd
+    2  ls
+    3  cd/
+    4  ls
+    5  firefox
+    6  man
+    7  1
+    8  4
+    9  /savelli
+   10  exit
+   11  ls
+   12  mkdir CTA200H
+   13  ls
+   14  git clone https://github.com/CITA/CTA200H.git
+   15  ls
+   16  ls-la
+   17  ls -la
+   18  ls -a
+   19  gd .git
+   20  cd .git
+   21  cd
+   22  ls
+   23  cd CTA200H
+   24  ls
+   25  rm -rf CTA200H
+   26  ls
+   27  ..
+   28  cd ..
+   29  ls ..
+   30  ls
+   31  cd CTA200H
+   32  ls
+   33  rm -rf CTA200H
+   34  ls
+   35  cd .git
+   36  ls
+   37  cd .
+   38  cd ..
+   39  ls
+   40  ls ..
+   41  rm -rf CTA200H
+   42  ls
+   43  rm -rf
+   44  ls
+   45  ls -la
+   46  ls
+   47  ls ..
+   48  thunar
+   49  pwd
+   50  quit
+   51  exit
+   52  cd CTA200H
+   53  cd /mnt/scratch-lustre
+   54  ls
+   55  ls -l
+   56  whoami
+   57  cd savelli/
+   58  pwd
+   59  cd ~cta200/
+   60  pwd
+   61  ls
+   62  find -name '*auss*'
+   63  pwd
+   64  cd mnt/scratch-lustre/savelli
+   65  cd mnt/
+   66  cd /mnt/scratch-lustre
+   67  cd savelli/
+   68  pwd
+   69  cp -r ~cta200/Research/gauss2d .
+   70  ls
+   71  cd gauss2d
+   72  ls
+   73  less gauss2d.cc
+   74  quit
+   75  make
+   76  dir
+   77  m plot.py
+   78  man vim
+   79  ls
+   80  ./gauss2d
+   81  vim plot.py
+   82  ls
+   83  make
+   84  ls -la
+   85  rm -rf gauss2d
+   86  ls -la
+   87  makw
+   88  make
+   89  ls
+   90  ls -la
+   91  gauss2d
+   92  ./gauss2d
+   93  ls -lt
+   94  ./gauss2d > data.txt
+   95  ls
+   96  ls -la
+   97  m data.txt
+   98  data.txt
+   99  dir
+  100  ls -la
+  101  ./plot.py
+  102  ./plot.py < data.txt
+  103  module load python/2.7.12
+  104  ./plot.py < data.txt
+  105  module load python/2.7.12
+  106  module load gcc/5.4.0
+  107  module load python/2.7.12
+  108  ./plot.py < data.txt
+  109  q
+  110  ls
+  111  cosmo4
+  112  fsdlfk
+  113  cd
+  114  ls
+  115  :q
+  116  :q!
+  117  :q
+  118  git config --global user.name "AliciaSavelli"
+  119  git config --global user.email as14bq@brocku.ca
+  120  wpd
+  121  cd
+  122  /cita/d/homes/
+  123  ls
+  124  pwd
+  125  cd ~
+  126  mkdir -p repos/gauss2d.git
+  127  cd repos/gauss2d.git
+  128  git init --bare
+  129  dir
+  130  ls -la
+  131  cd /mnt/scratch-lustre/savelli/gauss2d
+  132  ls -la
+  133  git init
+  134  echo "*.0" > .gitignore
+  135  echo hello
+  136  echo echo
+  137  echo hi
+  138  ls -la
+  139  m .gitignore
+  140  git add gauss2d.cc Makefile plot.py .gitignore
+  141  git status 
+  142  git commit -m "Working 2D Gaussian array generation code and plotting script"
+  143  git status
+  144  git log
+  145  git remote add origin /home/savelli/repos/gauss2d.git/
+  146  cat .git/config
+  147  git push --set-upstrea origin master
+  148  vim gauss2d.cc
+  149  git status
+  150  git diff
+  151  add -u
+  152  git diff 
+  153  git diff HEAD gauss2d.cc
+  154  git add -u
+  155  git status
+  156  git commit -m "Added useless comments"
+  157  git status
+  158  git push
+  159  git status
+  160  ls
+  161  pwd
+  162  cd CTA200H
+  163  ls
+  164  thunar
+  165  ls
+  166  firefox
+  167  mkdir CTA200H
+  168  ..
+  169  ls
+  170  pwd
+  171  quit
+  172  ls
+  173  finger
+  174  exit
+  175  ssh savelli@gw.cita.utoronto.ca
+  176  ssh savelli@cita.utoronto.ca
+  177  ssh savelli@gw.cita.utoronto.ca
+  178  pwd
+  179  ls
+  180  cd CTA200H
+  181  ls
+  182  thunar
+  183  pwd
+  184  ls
+  185  cd CTA200H
+  186  ls
+  187  mkdir Assignment 1
+  188  ls
+  189  thunar
+  190  pwd
+  191  ls
+  192  cd CTA200H
+  193  ls
+  194  mkdir Assignments
+  195  ls
+  196  cd Assignments
+  197  mkdir Assignment1
+  198  ls
+  199  thunar
+  200  cd Assignment1
+  201  git init
+  202  git config --global user.name "Alicia"
+  203  git config --global user.email as14bq@brocku.ca
+  204  git remote add origin https://github.com/as14bq/CTA200
+  205  pwd
+  206  gedit
+  207  chrome
+  208  firefox
+  209  quit
+  210  q
+  211  :q
+  212  pwd
+  213  thunar
+  214  ls
+  215  mkdir assignment_1
+  216  rm -rf assignment_1
+  217  ls
+  218  git add LICENSE.txt README.md
+  219  git status
+  220  git commit -m "license and readme"
+  221  pwd
+  222  mkdir assignment_1
+  223  git clone https://github.com/CITA/CTA200H/tree/master/assignment1_2021
+  224  git clone assignment1_2021/average.c
+  225  pwd
+  226  ls
+  227  ls -la
+  228  cd assignment_1
+  229  git clone https://github.com/CITA/CTA200H/blob/11d72360f191717922da3b6033e405c5b127e66a/assignment1_2021/average.c
+  230  pwd
+  231  ls
+  232  ls -la
+  233  thunar
+  234  pwd
+  235  echo $~
+  236  echo $HOME
+  237  cd ~/CTA200H/Resources/lecture_2
+  238  cd ..
+  239  pwd
+  240  cd ..
+  241  pwd
+  242  thunar
+  243  cp -rf ~/CTA200H/Resources/lecture2
+  244  cp -rf ~/CTA200H/Resources/lecture2 `/CTA200H/Assignments/Assignment1/assignment_1
+  245  pwd
+  246  q
+  247  quit
+  248  cp -rf ~/CTA200H/Resources/lecture2 ~/CTA200H/Assignments/Assignment1/assignment_1
+  249  quit
+  250  q
+  251  q:!
+  252  exit
+  253  help
+  254  -help
+  255  -h
+  256  quit
+  257  quit
+  258  q
+  259  q
+  260  :q
+  261  :quit
+  262  :exit
+  263  /quit
+  264  /exitz
+  265  thunar
+  266  pwd
+  267  thunar
+  268  cd ~
+  269  pwd
+  270  thunar
+  271  cp ~/CTA200H/Resources/lecture2/{main.c,average.c,average.h} ~/CTA200H/Assignments/Assignment1/assignment_1/
+  272  cd ~/CTA200H/Resources/lecture2/
+  273  thunar
+  274  cp ~/CTA200H/Resources/asssignment1_2020/{main.c,average.c,average.h} ~/CTA200H/Assignments/Assignment1/assignment_1/
+  275  cd ~/CTA200H/Resources/assignment1_2020/
+  276  thunar
+  277  open ~/CTA200H/Resources/assignment1_2020/main.c
+  278  open ~/CTA200H/Resources/assignment1_2020/average.h
+  279  open ~/CTA200H/Resources/assignment1_2020/assignment1_2020.pdf 
+  280  man open
+  281  ls -la ~/CTA200H/Resources/asssignment1_2020/
+  282  pwd
+  283  cd
+  284  cd ~/CTA200H/Assignments/Assignment1/assignemnt_1
+  285  cd ~/CTA200H/
+  286  ls
+  287  cd Assignments/
+  288  ls
+  289  cd Assignment1/
+  290  ls
+  291  ls -la
+  292  pushd ~/CTA200H/
+  293  ls
+  294  ls Resources/
+  295  pushd
+  296  pwd
+  297  cp ~/CTA200H/Resources/assignment1_2021/main.c 
+  298  cp ~/CTA200H/Resources/assignment1_2021/main.c assignment_1/
+  299  ls assignment_1/
+  300  cp ~/CTA200H/Resources/assignment1_2021/{average.c,average.h} assignment_1/
+  301  ls assignment_1/
+  302  gedit
+  303  exit
+  304  pwd
+  305  ls ~/CTA200H/Assignments/Assignment1/
+  306  ls -la  ~/CTA200H/Assignments/Assignment1/
+  307  man history
+  308  history --help
+  309  history
+  310  cat makefile
+  311  pwd
+  312  cd CTA200H/Assignments/Assignment1/
+  313  cat makefile
+  314  pwd
+  315  ls -la
+  316  cat Makefile
+  317  vim main.c
+  318  vim average.c
+  319  thunar
+  320  cd assignment_1/
+  321  vim main.c
+  322  vim average.c
+  323  git status
+  324  gcc -o Makefile2 main.c -I
+  325  gcc -o Makefile2 main.c
+  326  gcc -o Makefile2 main.c average.c average.h
+  327  gcc -o Makefile2 main.c average.c average.h -I
+  328  gcc -o Makefile2 main.c average.c average.h -std
+  329  gcc -o Makefile2 main.c average.c average.h
+  330  thunar
+  331  gcc -o Makefile2 main.c average.c average.h
+  332  vim average.c
+  333  gcc -o Makefile2 main.c average.c average.h 1
+  334  git status
+  335  git add README.md LICENSE.txt Makefile Makefile2 main.c average.c average.h
+  336  cd ..
+  337  git status
+  338  ls
+  339  git add Makefile Makefile2 README.md LICENSE.txt
+  340  git commit -m "Second commit"
+  341  git status
+  342  cd assignment_1/
+  343  git add main.c average.c average.h
+  344  git commit -m "C code"
+  345  git status
+  346  git push
+  347  git remote origin rm
+  348  git remote rm
+  349  git push
+  350  git remote origin git@github.com:as14bq/CTA200.git
+  351  git remote -verbose
+  352  git remote --verbose
+  353  git remote add origin git@github.com:as14bq/CTA200.git
+  354  git remote -rm
+  355  cd 
+  356  cd CTA200H/Assignments/Assignment1/
+  357  ls
+  358  ls -la
+  359  git remote -v
+  360  git remote add origin git@github.com:as14bq/CTA200.git
+  361  git remote rm origin
+  362  git remote -v
+  363  git remote add origin git@github.com:as14bq/CTA200.git
+  364  git remote -v
+  365  git push
+  366  history
+  367  pwd
+  368  cd assignment_1/
+  369  make
+  370  ls
+  371  Makefile3
+  372  make Makefile3
+  373  run Makefile3
+  374  cat Makefile3
+  375  make
+  376  thunar
+  377  make
+  378  ./filename
+  379  history
+  380  thunar
+  381  git remote -v
+  382  pwd
+  383  cd ..
+  384  pwd
+  385  ls -la
+  386  git init
+  387  ls -la
+  388  git add README.md LICENSE.txt 
+  389  git commit -m "Initial commit"
+  390  cd assignment_1/
+  391  ls -la
+  392  git add main.c average.c average.h Makefile
+  393  git commit -m "Commit C code"
+  394  git push -u origin main
+  395  git push -u origin master
+  396  cd ..
+  397  ls -la
+  398  git remove Makefile2 Makefile
+  399  git rm Makefile Makefile2
+  400  git -rm Makefile Makefile2
+  401  git status
+  402  git commit -m "test"
+  403  history >
+  404  history ^
+  405  history
+
