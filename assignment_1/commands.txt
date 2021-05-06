@@ -127,5 +127,3 @@ git add commands.txt
 git commit -m "history"
 git status 
 git push -u origin master
-
-
