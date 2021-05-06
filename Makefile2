@@ -1,9 +1,0 @@
-CC=gcc
-DEPS=
-OBJ=main.o average.o
-
-%.o: %.c $(DEPS)
-	$(CC) -c -o $@ $<
-
-main: $(OBJ)
-	$(CC) -o $@ 
